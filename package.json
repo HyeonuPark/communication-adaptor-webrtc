@@ -1,6 +1,6 @@
 {
   "name": "communication-adaptor-webrtc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CommunicationJS adaptor for WebRTC API",
   "main": "bin/index.js",
   "scripts": {
@@ -35,5 +35,12 @@
       "bin/**",
       "tmp/**"
     ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.2",
+    "babel-eslint": "^4.1.4",
+    "babel-preset-hyeonu": "^0.1.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0"
   }
 }
