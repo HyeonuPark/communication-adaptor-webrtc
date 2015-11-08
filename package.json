@@ -1,6 +1,6 @@
 {
   "name": "communication-adaptor-webrtc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CommunicationJS adaptor for WebRTC API",
   "main": "bin/index.js",
   "scripts": {
@@ -30,7 +30,7 @@
       "describe",
       "it"
     ],
-    "ignores": [
+    "ignore": [
       "node_modules/**",
       "bin/**",
       "tmp/**"
