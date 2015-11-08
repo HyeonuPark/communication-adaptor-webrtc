@@ -1,0 +1,7 @@
+node_modules
+src
+doc
+tmp
+.gitignore
+.npmignore
+gulpfile.babel.js

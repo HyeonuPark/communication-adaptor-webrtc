@@ -1,0 +1,39 @@
+{
+  "name": "communication-adaptor-webrtc",
+  "version": "1.0.0",
+  "description": "CommunicationJS adaptor for WebRTC API",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyeonupark/communication-adaptor-webrtc.git"
+  },
+  "keywords": [
+    "communication"
+  ],
+  "author": "HyeonuPark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyeonupark/communication-adaptor-webrtc/issues"
+  },
+  "homepage": "https://github.com/hyeonupark/communication-adaptor-webrtc#readme",
+  "babel": {
+    "presets": [
+      "hyeonu"
+    ]
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "describe",
+      "it"
+    ],
+    "ignores": [
+      "node_modules/**",
+      "bin/**",
+      "tmp/**"
+    ]
+  }
+}
